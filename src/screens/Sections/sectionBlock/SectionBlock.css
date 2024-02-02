@@ -1,0 +1,37 @@
+.sb{
+    width: 35rem;
+    height: 10rem;
+    margin: 1.5rem 4rem 1.5rem 2rem;
+    background-color: #9fa9db;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+button{
+    height: 2rem;
+    width: 4rem;
+    color: rgb(132, 164, 253);
+    border-radius: 8px;
+}
+.details{
+    margin-left: 1.5rem ;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    float: inline-start;
+}
+.sec-icon{
+    width: 7rem;
+    height: 7rem;
+    border: 2px black solid;
+    margin-right: 2rem;
+    
+}
+.progress{
+    height: 2rem;
+    width: 10rem;
+    background-color: rgb(69, 117, 247);
+    border-radius: 10px;
+}

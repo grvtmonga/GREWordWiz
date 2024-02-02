@@ -1,0 +1,11 @@
+.app{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.sidebar{
+    background-color: bisque;
+    width: 20%;
+    height: 100%;
+
+}
