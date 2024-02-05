@@ -12,3 +12,18 @@
     height: 100%;
 
 }
+.app{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.sidebar{
+    background-color: bisque;
+    width: 20%;
+    position: fixed;
+    height: 100%;
+
+}
+
