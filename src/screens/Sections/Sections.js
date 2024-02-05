@@ -1,6 +1,5 @@
 import React from 'react'
 import SectionBlock from './sectionBlock/SectionBlock'
-import LSideBar from '../../components/LSideBar'
 
 const sects = ['Foundations of Expertise: Embarking on the Learning Voyage',
                 'Skillbridge : The Mastery Midpoint',
@@ -17,9 +16,6 @@ export default function Sections() {
             <div>{sectItems}</div>
         </div>
         
-        <div >
-            <LSideBar/>
-        </div>
     </>
   
   )
