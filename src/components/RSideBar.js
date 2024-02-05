@@ -8,25 +8,25 @@ export default function RSideBar() {
 
           </div>
           <div className='gems'>
-
-
+            <img /><span></span>
           </div>
           <div className='lives'>
 
           </div>
         </header>
 
-        <div className='LeaderBoard'>
+        <div className='leaderBoard'>
           Leader Boards
         </div>
 
-        <div>
+        <div className='quest'>
           Daily Quests
         </div>
 
-        <div>
+        <div className='profile'>
           Create Profile
         </div>
+        
         
     </div>
   )
