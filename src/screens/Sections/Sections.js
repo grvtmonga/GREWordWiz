@@ -1,6 +1,6 @@
 import React from 'react'
-import SectionBlock from './sectionBlock/SectionBlock'
-import RSideBar from '../../components/RSideBar'
+import SectionBlock from './sectionBlock/SectionBlock';
+import RSideBar from '../../components/RSideBar';
 import './Sections.css'
 const sects = ['Expertise Foundations: Begin Your Learning Journey',
                 'Skillbridge : The Mastery Midpoint',
@@ -20,7 +20,7 @@ export default function Sections() {
         <div className='rsb'>
             <RSideBar/>
         </div>
-    </div>
-  
-  )
+    </div>
+  
+  )
 }

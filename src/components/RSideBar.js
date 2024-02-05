@@ -8,7 +8,7 @@ export default function RSideBar() {
 
           </div>
           <div className='gems'>
-            <span></span>
+            <img /><span></span>
           </div>
           <div className='lives'>
 
@@ -28,6 +28,6 @@ export default function RSideBar() {
         </div>
         
         
-    </div>
-  )
+    </div>
+  )
 }

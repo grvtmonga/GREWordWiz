@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import LSideBar from './components/LSideBar.js';
 import Sections from './screens/Sections/Sections.js';
@@ -12,6 +13,7 @@ function App() {
       <Route path ='/learn' element={<Learn />} />
       <Route path ='/' element={<Sections />} />
       </Routes>
+      <Sections/>
     </div>
     </Router>
   );
