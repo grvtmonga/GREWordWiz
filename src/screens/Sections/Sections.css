@@ -1,0 +1,14 @@
+.sect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 19.2%;
+}
+.feed{
+    width: 65%;
+    margin-right: 4rem;
+}
+.rsb{
+    width: 30%;
+}

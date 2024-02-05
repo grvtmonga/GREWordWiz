@@ -1,0 +1,49 @@
+.r-bar{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1.5rem 0 1rem 0;
+}
+.streak{
+    width: 3rem;
+    height: 1.8rem;
+    border: 2px black solid;
+    
+}
+.gems{
+    width: 3rem;
+    height: 1.8rem;
+    border: 2px black solid;
+   
+}
+.lives{
+    width: 3rem;
+    height: 1.8rem;
+    border: 2px black solid;
+}
+.leaderBoard{
+    margin: 1rem;
+    width: 100%;
+    height: 8.5rem;
+    border: 3px black solid;
+    border-radius: 10px;
+}
+.quest{
+    margin: 1rem;
+    width: 100%;
+    height: 9rem;
+    border: 3px black solid;
+    border-radius: 10px;
+}
+.profile{
+    margin: 1rem;
+    width: 100%;
+    height: 10.5rem;
+    border: 3px black solid;
+    border-radius: 10px;
+}
