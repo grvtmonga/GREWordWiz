@@ -13,7 +13,6 @@ function App() {
       <Route path ='/learn' element={<Learn />} />
       <Route path ='/' element={<Sections />} />
       </Routes>
-      <Sections/>
     </div>
     </Router>
   );

@@ -1,14 +1,17 @@
 .sect{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 80%;
-    margin-left: 19.2%;
+    margin-left: 20.5%;
+    /* position: absolute; */
 }
 .feed{
-    width: 65%;
-    margin-right: 4rem;
+    margin-right:2rem ;
+    width: 59%;
+    position: relative;
 }
 .rsb{
-    width: 30%;
+    margin-right:1rem ;
+    width: 35%;
 }

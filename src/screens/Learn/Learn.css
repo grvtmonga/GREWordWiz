@@ -4,6 +4,11 @@
     padding: 13px 18px;
     border-radius: 60px;
     font-size: 15px;
-    
+    /* display: flex;
+    flex-direction: row; */
+    /* justify-content: space-between; */
+    /* width: 80%; */
+    margin-left: 20%;
+    position: absolute;
     background-color: greenyellow;
 }

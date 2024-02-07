@@ -1,13 +1,13 @@
 .r-bar{
-
+    position: fixed;
     height: 100%;
-    width: 100%;
+    width: 21rem;
 }
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 1.5rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
 }
 .streak{
     width: 3rem;
@@ -27,24 +27,48 @@ header{
     border: 2px black solid;
 }
 .leaderBoard{
-    margin: 1rem;
+    margin: 1rem 0rem 1rem 1rem;
     width: 100%;
     height: 8.5rem;
-    border: 3px black solid;
+    border: 3px rgb(205, 205, 205) solid;
     border-radius: 10px;
+
+}
+.r-bar h3{
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 28px;
 }
 .quest{
-    margin: 1rem;
+    margin: 0rem 1rem 1rem 1rem;
     width: 100%;
     height: 9rem;
-    border: 3px black solid;
+    border: 3px rgb(205, 205, 205) solid;
     border-radius: 10px;
 }
 .profile{
-    margin: 1rem;
+    margin: 1rem 0rem 1rem 1rem;
     width: 100%;
     height: 10.5rem;
-    border: 3px black solid;
+    border: 3px rgb(205, 205, 205) solid;
     border-radius: 10px;
+}
+#create{
+    width: 85%;
+    margin-right: 1.6rem;
+    margin-left: 1.6rem;
+    height: 2.5rem;
+    font-size: medium;
+    font-weight: bold;
+}
+#sign-in{
+    width: 85%;
+    margin: 1rem 1.6rem 1rem 1.6rem;
+    height: 2.5rem;
+    font-size: medium;
+    font-weight: bold;
 }
 

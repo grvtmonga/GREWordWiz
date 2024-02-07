@@ -1,12 +1,16 @@
 import React from 'react'
 import './SectionBlock.css'
-export default function SectionBlock({title}) {
+import { Link } from 'react-router-dom';
+export default function SectionBlock({title,subTitle}) {
   return (
     <div className='sb'>
       <div className='details'>
-      {title}
-      <div className='progress'></div>
-      <button>Start</button>
+        <p id="title">{title}</p>
+        <p id='subTitle'>{subTitle}</p>
+        <div className='progress'></div>
+        <Link to="/learn">
+          <button id='sect-button'>Start</button>
+        </Link>
       </div>
       <div className='sec-icon'>
 

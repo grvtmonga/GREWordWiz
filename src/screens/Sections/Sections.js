@@ -2,14 +2,25 @@ import React from 'react'
 import SectionBlock from './sectionBlock/SectionBlock';
 import RSideBar from '../../components/RSideBar';
 import './Sections.css'
-const sects = ['Expertise Foundations: Begin Your Learning Journey',
-                'Skillbridge : The Mastery Midpoint',
-                'Zenith Mastery Module '
-                ]
+const sects = [
+    {
+        title:'Foundations of Expertise',
+        subTitle:'Embarking on the Learning Voyage',
+    },
+    {
+        title:'Skillbridge',
+        subTitle:'The Mastery Midpoint',
+    },
+    {
+        title:'Zenith',
+        subTitle:'The Mastery Module',
+    }
+]   
+
 export default function Sections() {
 
-    const sectItems = sects.map((sect, index) => (
-        <SectionBlock key={index} title={sect} />
+    const sectItems = sects.map((val, key) => (
+        <SectionBlock key={key} title={val.title} subTitle={val.subTitle} />
       ));
   return (
     <div className='sect'>
