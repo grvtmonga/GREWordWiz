@@ -1,5 +1,7 @@
+#"AIzaSyCZUMaN5ShTyOt6Ya3SDEyxAP2RZDso750"
 import google.generativeai as palm
-palm.configure(api_key="AIzaSyCZUMaN5ShTyOt6Ya3SDEyxAP2RZDso750")
+palm.configure()
+#api_key
 models = [
     m for m in palm.list_models() if "generateText" in m.supported_generation_methods
 ]
