@@ -17,7 +17,6 @@ function LSideBar() {
                   <div className='pname'>{val.title}</div>
                 </div>
                 </Link>
-              
           );
         })}
       </ul>

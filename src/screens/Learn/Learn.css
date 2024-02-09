@@ -12,3 +12,14 @@
     position: absolute;
     background-color: greenyellow;
 }
+
+.learn {
+    width: 80%;
+    margin-left: 20.5%;
+}
+
+.learn-header{
+    height:50px;
+    width:100%;
+    border-bottom: rgb(205, 205, 205) solid;
+}
