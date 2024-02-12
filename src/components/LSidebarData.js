@@ -1,7 +1,6 @@
 import React from "react";
 import Icons from "./icons";
-import Diamond from "../Assets/images/diamond.png";
-import Fire from "../Assets/images/fire.png";
+import Settings from "../Assets/images/settings.png";
 import Leaderboard from "../Assets/images/leaderboard.png"; 
 import Learn from "../Assets/images/learn.png";
 import Profile from "../Assets/images/profile.png";
@@ -13,11 +12,6 @@ export const LSidebarData = [
     title: "Learn",
     icon: <Icons source={Learn} name="Learn" />,
     link: "/learn",
-  },
-  {
-    title: "Practice",
-    icon: <Icons source={Fire} name="Practice" />,
-    link: "/practice",
   },
   {
     title: "Leaderboard",
@@ -41,7 +35,7 @@ export const LSidebarData = [
   },
   {
     title: "Settings",
-    icon: <Icons source={Diamond} name="Settings" />,
+    icon: <Icons source={Settings} name="Settings" />,
     link: "/settings",
   },
 ];

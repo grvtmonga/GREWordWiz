@@ -7,15 +7,15 @@ export default function SectionBlock({title,subTitle,icon}) {
       <div className='details'>
         <p id="title">{title}</p>
         <p id='subTitle'>{subTitle}</p>
-        <img src='{icon}'/>
+        
         <div className='progress'></div>
         <Link to="/learn">
           <button id='sect-button'>Start</button>
         </Link>
       </div>
-      <div className='sec-icon'>
-
-      </div>
+      
+      <img className='sec-icon' src={icon} alt="Logo" />
+      
     </div>
   )
 }

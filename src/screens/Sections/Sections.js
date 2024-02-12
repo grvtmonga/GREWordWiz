@@ -10,17 +10,17 @@ const sects = [
     {
         title:'Foundations of Expertise',
         subTitle:'Embarking on the Learning Voyage',
-        icon : <Icons source={foundation} name="Foundation" />
+        icon : foundation,
     },
     {
         title:'Skillbridge',
         subTitle:'The Mastery Midpoint',
-        icon : <Icons source={skillBridge} name="SkillBridge" />
+        icon : skillBridge
     },
     {
         title:'Zenith',
         subTitle:'The Mastery Module',
-        icon : <Icons source={Zenith} name="Zenith" />
+        icon : Zenith
     }
 ]   
 

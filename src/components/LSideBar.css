@@ -28,11 +28,17 @@
 #nav{
     display: flex;
     flex-direction: row;
+    margin-top: 0.35rem;
 }
 
 ul .pname{
-    line-height:3rem;
+    line-height:2.5rem;
     color: black;
+    margin-left:1rem ;
+    margin-top: 0.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-size: 17px; */
+    font-weight: 600;
 }
 #icon{
     margin: 1px 4px 1px 0px;

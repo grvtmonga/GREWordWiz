@@ -1,16 +1,15 @@
 .btn-circle.btn-xl {
     width: 100px;
     height: 100px;
-    padding: 12px 16px;
-    border-radius: 50px;
+    padding: 13px 18px;
+    border-radius: 60px;
     font-size: 15px;
     /* display: flex;
     flex-direction: row; */
     /* justify-content: space-between; */
     /* width: 80%; */
-    margin-left: 28%;
-    position: relative;
-    top: 5px;
+    margin-left: 20%;
+    position: absolute;
     background-color: greenyellow;
 }
 
@@ -21,20 +20,6 @@
 
 .learn-header{
     height:50px;
-    width:55%;
-    margin-left: 5%;
-    margin-top: 30px;
+    width:100%;
     border-bottom: rgb(205, 205, 205) solid;
 }
-
-
-.rsb-learn {
-    position: relative;
-    left: 68.87%;
-    position:absolute;
-    top : 0%;
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> origin

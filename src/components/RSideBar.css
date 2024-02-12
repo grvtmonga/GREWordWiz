@@ -12,19 +12,20 @@ header{
 .streak{
     width: 3rem;
     height: 1.8rem;
-    border: 2px black solid;
     
+}
+#Streak{
+   vertical-align: center; 
 }
 .gems{
     width: 3rem;
     height: 1.8rem;
-    border: 2px black solid;
    
 }
 .lives{
     width: 3rem;
     height: 1.8rem;
-    border: 2px black solid;
+    line-height: 1.8rem;
 }
 .leaderBoard{
     margin: 1rem 0rem 1rem 1rem;
