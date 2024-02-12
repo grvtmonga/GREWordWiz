@@ -11,10 +11,15 @@
     
 }
 button{
-    height: 2rem;
-    width: 4rem;
-    color: rgb(132, 164, 253);
-    border-radius: 8px;
+    height: 2.5rem;
+    width: 5rem;
+    color: #009faf;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 4px #46868cb8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
 }
 .details{
     margin-left: 1.5rem ;
