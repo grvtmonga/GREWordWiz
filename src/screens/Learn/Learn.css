@@ -8,6 +8,7 @@
     flex-direction: row; */
     /* justify-content: space-between; */
     /* width: 80%; */
+    margin-top: 3%;
     margin-left: 20%;
     position: absolute;
     background-color: greenyellow;
@@ -19,7 +20,14 @@
 }
 
 .learn-header{
-    height:50px;
-    width:100%;
+    height:60px;
+    margin-left: 2%;
+    width:60%;
     border-bottom: rgb(205, 205, 205) solid;
+}
+
+.rsb-learn{
+    position: absolute;
+    top:1%;
+    margin-left:52%;
 }
