@@ -8,7 +8,6 @@ const userSchema = new Schema({
         required:true
 
     },
-    
     email:{
         type: String,
         required:true,
@@ -21,7 +20,15 @@ const userSchema = new Schema({
     date:{
         type: Date,
         default:Date.now 
-    }
+    },
+
+    progress:[{
+        type: ObjectId,
+        ref: 'progress'
+    },
+        
+]
+
 });
 
 module.exports = mongoose.model('User', userSchema)
