@@ -18,7 +18,7 @@ const wordsSchema = new Schema({
         required:true
     },
 
-    voices:{
-        type:
-    }
+    // voices:{
+    //     type:
+    // }
 })
