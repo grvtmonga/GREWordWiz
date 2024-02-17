@@ -4,9 +4,7 @@ const mongoURL = 'mongodb+srv://vocab_playground:Vocab123@cluster1.txpwnvz.mongo
 
 const mongoDb = async () => {
     try {
-        await mongoose.connect(mongoURL, {
-            useNewUrlParser: true,
-        });
+        await mongoose.connect(mongoURL);
         console.log('Database is connected');
     } catch (error) {
         console.error('Error connecting to the database:', error.message);
