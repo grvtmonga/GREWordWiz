@@ -18,7 +18,7 @@ const PopUpForm = ({ isOpen, onClose }) => {
           flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
-          fontFamily: 'Roboto, sans-serif',
+          fontFamily: 'Gill Sans, Gill Sans MT, Calibri , Trebuchet MS, sans-serif',
           top: '50%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
@@ -41,8 +41,12 @@ const PopUpForm = ({ isOpen, onClose }) => {
         <input type='password' id='password-confirm' placeholder='Confirm Password' />
 
       </form>
+      <h3>Or</h3>
+      <button className='g-button'>
+        Sign in with Google
+      </button>
       <button className='close-button' onClick={onClose}>
-        Close
+        *
       </button>
     </Model>
   );

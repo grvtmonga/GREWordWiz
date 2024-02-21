@@ -37,7 +37,9 @@
   }
   
   .close-button {
-    margin-top: 20px;
+    position: absolute;
+    margin-top: -30rem;
+    margin-left: -25rem;
     padding: 10px 20px;
     background-color: aqua;
     color: black;
@@ -46,4 +48,7 @@
     cursor: pointer;
     font-weight: bold;
   }
-  
+.g-button{
+  width: 15rem;
+  height: 2.5rem;
+}
